@@ -6,6 +6,7 @@ const config = { module: {} };
 // paths
 const dist = pathTo('./dist');
 const src = pathTo('./src');
+const components= pathTo('./src/components');
 const exclude = /node_modules/;
 
 // Plugins
@@ -20,7 +21,7 @@ config.context = src;
 
 
 // Entry.
-config.entry = ['./styles/index.scss', './index.js'];
+config.entry = ['./components/styles/index.scss', './index.js'];
 
 
 // Rules.
@@ -30,6 +31,7 @@ config.module.rules = [{
     use: 'babel-loader',
 }, {
     test: /\.(scss)$/,
+    include: components,
     use: extract({
         use: 'css-loader!postcss-loader!sass-loader'
     }),

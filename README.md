@@ -1,7 +1,7 @@
 # Reactboilerplate
 A boilerplate created for easy use for creating React projects ..!
 
-# Specialities , 
+# Specialities, 
 - `Babel env ` , `webpack 3`, `Scss to css`,`Html`, `Images , Automated Script to create stateless and statefull components `
 
 # commands  

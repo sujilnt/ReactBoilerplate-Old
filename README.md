@@ -1,4 +1,4 @@
-# Reactboilerplate
+# React Boilerplate
 A boilerplate created for easy use for creating React projects ..!
 
 # Specialities, 
